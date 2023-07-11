@@ -483,7 +483,7 @@ section .main_btn:hover i{
 
 .review .review_box .review_card{
     width: 350px;
-    height: 450px;
+    height: 499px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
     border-radius: 8px;
     padding: 8px 20px;
@@ -550,6 +550,7 @@ section .main_btn:hover i{
     text-align: center;
     line-height: 22px;
     transition: 0.3s;
+    font-weight: 900;
 }
 
 .review .review_box .review_card:hover .review_text p{
@@ -779,6 +780,12 @@ footer .footer_main{
 
 footer .footer_main .footer_tag{
     text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+footer .footer_main .footer_tag p:hover{
+    color: #fac031;
 }
 
 footer .footer_main .footer_tag h2{
@@ -805,11 +812,16 @@ footer .end{
     align-items: center;
     justify-content: center;
     padding: 15px;
+    font-weight: 900;
 }
 
 footer .end span{
     color: #fac031;
     margin-left: 10px;
+}
+
+footer .end span:hover{
+    color: #000;
 }
 
 ::-webkit-scrollbar{
