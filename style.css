@@ -639,6 +639,13 @@ section .main_btn:hover i{
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
+    font-size: 22px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.order .order_main form .order_btn:hover{
+    color: #000;
 }
 
 
