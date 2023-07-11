@@ -375,6 +375,7 @@ section .main_btn:hover i{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    border-radius: 30px;
 }
 
 .gallary .gallary_image_box .gallary_image{
@@ -382,11 +383,13 @@ section .main_btn:hover i{
     align-items: center;
     justify-content: center;
     background: black;
+    border-radius: 30px;
 }
 
 .gallary .gallary_image_box .gallary_image img{
     width: 100%;
     transition: .3s;
+    border-radius: 30px;
 }
 
 .gallary .gallary_image_box .gallary_image:hover img{
@@ -411,7 +414,7 @@ section .main_btn:hover i{
 .gallary .gallary_image_box .gallary_image p{
     position: absolute;
     width: 400px;
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
     color: white;
     line-height: 22px;
@@ -426,7 +429,7 @@ section .main_btn:hover i{
 
 .gallary .gallary_image_box .gallary_image .gallary_btn{
     position: absolute;
-    margin-top: 180px;
+    margin-top: 195px;
     color: #000;
     background: #fac031;
     padding: 7px 25px;
@@ -435,6 +438,8 @@ section .main_btn:hover i{
     transform: translateY(45px);
     z-index: 5;
     transition: 0.3s;
+    border-radius: 10px;
+    font-weight: 700;
 }
 
 .gallary .gallary_image_box .gallary_image:hover .gallary_btn{
