@@ -157,7 +157,7 @@ section .main_btn a:hover{
 }
 
 .about .about_main .image img{
-    width: 800px;
+    width: 500px;
     position: relative;
     top: 60px;
 }
@@ -194,6 +194,12 @@ section .main_btn a:hover{
     position: relative;
     left: 55%;
     bottom: 30px;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+.about .about_btn:hover{
+    color: #000;
 }
 
 
