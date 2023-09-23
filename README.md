@@ -2,6 +2,12 @@
 
 This repository contains the source code for a restaurant website. The website is designed to showcase a fictional restaurant's menu, ambiance, and contact information. It aims to provide an attractive and user-friendly online presence for the restaurant.
 
+## Restaurant Website Preview
+![Screenshot 2023-09-23 215840](https://github.com/YawBoah/Restaurant-Website/assets/126890146/3b66c062-baf0-44db-bc72-19ed75f54bc4)![Screenshot 2023-09-23 215823](https://github.com/YawBoah/Restaurant-Website/assets/126890146/e8b9bd77-d522-4677-96b4-9036ed8d872b)
+![Screenshot 2023-09-23 215925](https://github.com/YawBoah/Restaurant-Website/assets/126890146/db40f7fc-26c8-46b4-b630-76d40281d2ff)
+![Screenshot 2023-09-23 215911](https://github.com/YawBoah/Restaurant-Website/assets/126890146/f8851d33-1d6e-46ad-a640-d39e5adfbcda)
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
