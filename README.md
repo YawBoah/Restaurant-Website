@@ -5,8 +5,12 @@ This repository contains the source code for a restaurant website. The website i
 ## Restaurant Website Preview
 ![DdFood](https://github.com/YawBoah/Restaurant-Website/assets/126890146/6b393ead-37ab-4fbd-afbb-becebc0373ad)
 
+![Screenshot 2023-09-06 165213](https://github.com/YawBoah/Restaurant-Website/assets/126890146/c4dc9340-19c7-47c4-8bea-e5e7ef32c557)
+
+![Screenshot 2023-09-06 165054](https://github.com/YawBoah/Restaurant-Website/assets/126890146/c3ff1d89-4905-471b-8a07-2c353407d59c)
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
