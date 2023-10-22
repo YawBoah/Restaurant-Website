@@ -985,3 +985,13 @@ footer .end span:hover{
     .team .team_box .profile {
         width: 100%; /* Make the profile boxes full width for small screens */
     }
+
+     /* Footer Styles */
+     footer .footer_main .footer_tag h2 {
+        font-size: 25px; /* Smaller font size for footer headings */
+    }
+
+    footer .end span {
+        font-size: 20px; /* Smaller font size for the ending text */
+    }
+}
