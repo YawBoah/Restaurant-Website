@@ -896,3 +896,17 @@ footer .end span:hover{
     section .main .main_btn a {
     font-size: 18px; /* Font size for the button text */
     }
+
+    /* About Section Styles */
+    .about .about_main .image img {
+        width: 100%; /* Make the image full width for small screens */
+    }
+
+    .about .about_main .about_text h1 {
+        font-size: 30px; /* Smaller font size for better readability */
+        margin-bottom: 15px; /* Improved spacing */
+    }
+
+    .about .about_main .about_text h1 span {
+        font-size: 45px; /* Increase the size of the special span text */
+    }
