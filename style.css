@@ -860,6 +860,11 @@ footer .end span:hover{
 
 /* Media Query for screens with a maximum width of 480px */
 @media screen and (max-width: 480px) {
+    /* Hide Team and Review Sections */
+    .team, .review {
+        display: none;
+    }
+
     /* Navigation Styles */
     section nav .logo img {
         width: 150px; /* Make the logo smaller for mobile screens */
@@ -875,26 +880,25 @@ footer .end span:hover{
 
     /* Main Section Styles */
     section .main .men_text h1 {
-    font-size: 30px; /* Smaller font size for better readability on small screens */
-    line-height: 1.2; /* Improved line spacing */
+        font-size: 30px; /* Smaller font size for better readability on small screens */
+        line-height: 1.2; /* Improved line spacing */
     }
 
     section .main .men_text h1 span {
-    font-size: 45px; /* Increase the size of the special span text */
+        font-size: 45px; /* Increase the size of the special span text */
     }
 
     section .main .main_image img {
-    width: 100%; /* Make the image full width for small screens */
-    margin: 10px 0; /* Add some margin for better spacing */
+        display: none; /* Hide the image for small screens */
     }
 
     section .main .main_btn {
-    font-size: 18px; /* Larger font size for the call-to-action button */
-    padding: 8px 15px; /* Smaller button size for mobile screens */
+        font-size: 18px; /* Larger font size for the call-to-action button */
+        padding: 8px 15px; /* Smaller button size for mobile screens */
     }
 
     section .main .main_btn a {
-    font-size: 18px; /* Font size for the button text */
+        font-size: 18px; /* Font size for the button text */
     }
 
     /* About Section Styles */
@@ -911,8 +915,8 @@ footer .end span:hover{
         font-size: 45px; /* Increase the size of the special span text */
     }
 
-     /* Menu Section Styles */
-     .menu h1 {
+    /* Menu Section Styles */
+    .menu h1 {
         font-size: 30px; /* Smaller font size for better readability */
     }
 
@@ -924,6 +928,11 @@ footer .end span:hover{
         width: 100%; /* Make the menu cards full width for small screens */
     }
 
+    .menu .menu_box .menu_card .menu_info h2 {
+        width: 100%; /* Make the text full width for small screens */
+        text-align: center; /* Center-align text */
+    }
+
     /* Gallery Section Styles */
     .gallary h1 {
         font-size: 30px; /* Smaller font size for better readability */
@@ -933,22 +942,15 @@ footer .end span:hover{
         bottom: 5px; /* Adjust the underline position */
     }
 
-    .gallary .gallary_image_box .gallary_image h3 {
-        font-size: 25px; /* Smaller font size for better readability */
-        margin-bottom: 100px; /* Improved spacing */
+    .gallary .gallary_image_box {
+        display: flex;
+        flex-direction: column; /* Stack gallery items in a column */
+        align-items: center; /* Center-align items */
     }
 
-    /* Review Section Styles */
-    .review h1 {
-        font-size: 30px; /* Smaller font size for better readability */
-    }
-
-    .review h1 span::after {
-        bottom: 5px; /* Adjust the underline position */
-    }
-
-    .review .review_box .review_card {
-        width: 100%; /* Make the review cards full width for small screens */
+    .gallary .gallary_image_box .gallary_image {
+        width: 100%; /* Make the gallery images full width */
+        margin: 10px 0;
     }
 
     /* Order Section Styles */
@@ -960,8 +962,14 @@ footer .end span:hover{
         bottom: 5px; /* Adjust the underline position */
     }
 
+    .order .order_main {
+        display: flex;
+        flex-direction: column; /* Stack order items in a column */
+        align-items: center; /* Center-align items */
+    }
+
     .order .order_main .order_image img {
-        width: 100%; /* Make the image full width for small screens */
+        display: none; /* Hide the image for small screens */
     }
 
     .order .order_main form .input input {
@@ -973,25 +981,17 @@ footer .end span:hover{
         padding: 8px 15px; /* Smaller button size for mobile screens */
     }
 
-    /* Team Section Styles */
-    .team h1 {
-        font-size: 30px; /* Smaller font size for better readability */
+    /* Footer Styles */
+    footer .footer_main {
+        display: flex; /* Stack footer items in a column */
+        flex-direction: column;
+        align-items: center;
     }
-
-    .team h1 span::after {
-        bottom: 5px; /* Adjust the underline position */
-    }
-
-    .team .team_box .profile {
-        width: 100%; /* Make the profile boxes full width for small screens */
-    }
-
-     /* Footer Styles */
-     footer .footer_main .footer_tag h2 {
-        font-size: 25px; /* Smaller font size for footer headings */
-    }
-
+    
     footer .end span {
-        font-size: 20px; /* Smaller font size for the ending text */
+        margin-top: 15px; /* Add margin for spacing */
     }
 }
+
+
+
