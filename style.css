@@ -868,6 +868,7 @@ footer .end span:hover{
     /* Navigation Styles */
     section nav .logo img {
         width: 150px; /* Make the logo smaller for mobile screens */
+        margin-right: 1000px;
     }
 
     section nav ul {
