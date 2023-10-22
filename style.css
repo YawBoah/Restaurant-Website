@@ -877,6 +877,7 @@ footer .end span:hover{
 
     section nav .icon i {
         font-size: 24px; /* Increase the icon size for better touch interaction */
+        /* margin-right: 2000px; */
     }
 
     /* Main Section Styles */
