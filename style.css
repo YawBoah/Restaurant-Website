@@ -872,3 +872,27 @@ footer .end span:hover{
     section nav .icon i {
         font-size: 24px; /* Increase the icon size for better touch interaction */
     }
+
+    /* Main Section Styles */
+    section .main .men_text h1 {
+    font-size: 30px; /* Smaller font size for better readability on small screens */
+    line-height: 1.2; /* Improved line spacing */
+    }
+
+    section .main .men_text h1 span {
+    font-size: 45px; /* Increase the size of the special span text */
+    }
+
+    section .main .main_image img {
+    width: 100%; /* Make the image full width for small screens */
+    margin: 10px 0; /* Add some margin for better spacing */
+    }
+
+    section .main .main_btn {
+    font-size: 18px; /* Larger font size for the call-to-action button */
+    padding: 8px 15px; /* Smaller button size for mobile screens */
+    }
+
+    section .main .main_btn a {
+    font-size: 18px; /* Font size for the button text */
+    }
