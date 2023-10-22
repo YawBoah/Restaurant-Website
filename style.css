@@ -910,3 +910,16 @@ footer .end span:hover{
     .about .about_main .about_text h1 span {
         font-size: 45px; /* Increase the size of the special span text */
     }
+
+     /* Menu Section Styles */
+     .menu h1 {
+        font-size: 30px; /* Smaller font size for better readability */
+    }
+
+    .menu h1 span::after {
+        bottom: 5px; /* Adjust the underline position */
+    }
+
+    .menu .menu_box .menu_card {
+        width: 100%; /* Make the menu cards full width for small screens */
+    }
