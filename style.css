@@ -972,3 +972,16 @@ footer .end span:hover{
         font-size: 18px; /* Larger font size for the button */
         padding: 8px 15px; /* Smaller button size for mobile screens */
     }
+
+    /* Team Section Styles */
+    .team h1 {
+        font-size: 30px; /* Smaller font size for better readability */
+    }
+
+    .team h1 span::after {
+        bottom: 5px; /* Adjust the underline position */
+    }
+
+    .team .team_box .profile {
+        width: 100%; /* Make the profile boxes full width for small screens */
+    }
