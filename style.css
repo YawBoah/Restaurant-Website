@@ -879,6 +879,12 @@ footer .end span:hover{
     }
 
     /* Main Section Styles */
+    .main{
+        margin: 10%;
+        padding: 10%;
+        flex-direction: column;
+    } 
+
     section .main .men_text h1 {
         font-size: 30px; /* Smaller font size for better readability on small screens */
         line-height: 1.2; /* Improved line spacing */
@@ -889,7 +895,8 @@ footer .end span:hover{
     }
 
     section .main .main_image img {
-        display: none; /* Hide the image for small screens */
+        display: inline; /* Hide the image for small screens */
+        width: 150px;
     }
 
     section .main .main_btn {
@@ -902,6 +909,10 @@ footer .end span:hover{
     }
 
     /* About Section Styles */
+    .about {
+        display: none;
+    }
+
     .about .about_main .image img {
         width: 100%; /* Make the image full width for small screens */
     }
