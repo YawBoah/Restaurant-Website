@@ -937,3 +937,16 @@ footer .end span:hover{
         font-size: 25px; /* Smaller font size for better readability */
         margin-bottom: 100px; /* Improved spacing */
     }
+
+    /* Review Section Styles */
+    .review h1 {
+        font-size: 30px; /* Smaller font size for better readability */
+    }
+
+    .review h1 span::after {
+        bottom: 5px; /* Adjust the underline position */
+    }
+
+    .review .review_box .review_card {
+        width: 100%; /* Make the review cards full width for small screens */
+    }
