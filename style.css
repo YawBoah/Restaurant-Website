@@ -923,3 +923,17 @@ footer .end span:hover{
     .menu .menu_box .menu_card {
         width: 100%; /* Make the menu cards full width for small screens */
     }
+
+    /* Gallery Section Styles */
+    .gallary h1 {
+        font-size: 30px; /* Smaller font size for better readability */
+    }
+
+    .gallary h1 span::after {
+        bottom: 5px; /* Adjust the underline position */
+    }
+
+    .gallary .gallary_image_box .gallary_image h3 {
+        font-size: 25px; /* Smaller font size for better readability */
+        margin-bottom: 100px; /* Improved spacing */
+    }
