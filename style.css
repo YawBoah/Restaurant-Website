@@ -881,7 +881,7 @@ footer .end span:hover{
     /* Main Section Styles */
     .main{
         margin: 10%;
-        padding: 10%;
+        padding: 15%;
         flex-direction: column;
     } 
 
@@ -896,7 +896,8 @@ footer .end span:hover{
 
     section .main .main_image img {
         display: inline; /* Hide the image for small screens */
-        width: 150px;
+        width: 300px;
+        margin-top: 30px;
     }
 
     section .main .main_btn {
