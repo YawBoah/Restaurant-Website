@@ -876,6 +876,7 @@ footer .end span:hover{
     }
 
     section nav .icon i {
+        display: none;
         font-size: 24px; /* Increase the icon size for better touch interaction */
         /* margin-right: 2000px; */
     }
